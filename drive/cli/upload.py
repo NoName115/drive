@@ -48,7 +48,7 @@ def main():
     main_upload(
         target_folder=args.output,
         files_to_upload=args.file,
-        update_file=bool(args.update_exsiting)
+        update_file=bool(args.update_existing)
     )
 
 
